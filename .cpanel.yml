@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/digintmedia/public_html/wpsamplesite/wp-content/themes/sitetheme
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
